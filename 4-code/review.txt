@@ -1,0 +1,17 @@
+
+git 基础操作命令
+
+git init (会自动生成一个 .git 的隐藏目录)
+
+// 配置信息只需要执行一次（重复执行会覆盖上一次）
+git config --global user.email 开发者邮箱
+git config --blobal user.name 开发者姓名
+
+git status 查看文件状态
+
+git add 文件路径/*/-A 将文件从工作区添加到暂存区
+
+git commit -m '备注信息' 将暂存区文件一次性提交到仓库
+
+git log 查看提交记录（历史或版本）
+
